@@ -11,6 +11,14 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+me = ["milk", "eggs", "wine"]
+friend = ["wine", "cookies", "apples"]
+
+us = me + friend
+us_unique = us.uniq #removes duplicates
+#puts us_unique.sort
+puts us.uniq.sort
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
